@@ -1,0 +1,153 @@
+
+* {
+	margin:  0;
+	padding: 0;
+}
+$secondary:#B8B8B8;
+$postcolor:#15955C;
+$mainlyColor:#00acce;
+$font-family:  Helvetica, sans-serif;
+$grey:#B8B8B8;
+$blue:#00acce;
+$fonfamily: Palatino Linotype, serif;
+$red:#ff0000;
+$backcolor:#fff;
+
+body {
+	font-family: $font-family;
+	background: $backcolor;
+}
+
+
+.main-wrapper {
+	position: relative;
+	width: 960px;
+	margin: 0 auto;
+	padding: 0; }
+
+	header {
+		height: 220px;
+		.logo img {
+			width: 300px;
+			height: 200px;
+			float: left; }
+			nav {
+				float: right;
+				margin-top: 100px;
+				width: 600px;
+				padding: 10px 0;
+				border-top: 1px solid $mainlyColor;
+				border-bottom: 1px solid $mainlyColor;
+				text-align: center;
+				word-spacing: 100px; 
+				a{
+					color:$mainlyColor;
+					text-transform: uppercase;
+					text-decoration: none; 
+					&:hover{ color:$mainlyColor; }	
+				}
+
+			}
+		}
+
+		.toolbar {
+			float: right;
+			margin-bottom: 20px;
+			margin-right: 20px; 
+			input {
+				border: 1px solid $mainlyColor;
+				text-align: left;
+				padding: 10px 0 10px 20px;
+				background-color: $backcolor; 
+				&:active {
+					border: 1px solid  $mainlyColor; }
+					&::placeholder {
+						color:$mainlyColor; }
+
+					}
+				}
+
+				.post-list { clear: both; }
+
+				article {
+					width: 47%;
+					display: inline-block;
+					padding: 10px;
+					margin-top: 20px;
+					vertical-align: top;
+					background-color:$backcolor; 
+					img {
+						width: 100%; }
+					}
+					.post-description {
+						color:$postcolor;
+						font-size: 12px;
+						padding: 10px 0;
+						margin: 0 20px;
+						border-bottom: 1px solid $secondary; }
+
+						h3 {
+							color: $mainlyColor;
+							margin: 5px 20px; }
+
+							p {
+								color: $secondary;
+								margin: 15px 20px;
+								font-size: 14px; }
+
+								h1 {
+									color:$mainlyColor;
+									margin-top: 60px;
+									text-align: right; }
+
+									.about {
+										width: 100%; }
+										.about img {
+											width: 100%;
+											margin-top: 20px; }
+
+											h4 {
+												color:$mainlyColor;
+												text-align: right;
+												margin: 0; }
+												form {
+													margin-top: 20px; }
+
+													input, textarea {
+														width: 100%;
+														margin: 10px 0;
+														padding-top: 5px;
+														padding-bottom: 5px;
+														padding-left: 5px;
+														border: 1px solid $secondary; }
+
+														input:active {
+															border: 1px solid $mainlyColor; }
+
+															textarea {
+																padding-right: 0;
+																padding-bottom: 40px; }
+																textarea:active {
+																	border: 1px solid $mainlyColor; }
+
+																	#message::placeholder, form input::placeholder {
+																		color: $secondary;
+																		font-size: 12px;
+																		font-family:$font-family; }
+
+																		form .btn {
+																			float:right;
+																			width: 200px;
+																			height: 40px;
+																			background:$mainlyColor;
+																			font-weight: bold;
+																			text-transform: uppercase;
+																			color: $backcolor;
+																			border: none;
+																		}
+
+																		footer {
+																			clear: both;
+																			color: $secondary;
+																			font-size: 8px;
+																			margin-bottom: 5px; }
