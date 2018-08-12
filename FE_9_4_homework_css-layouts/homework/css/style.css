@@ -1,0 +1,312 @@
+
+* {
+	margin:0;
+	padding:0;
+	font-family:'Open Sans', sans-serif;
+	box-sizing:border-box;
+}
+body {
+	max-width:1100px;
+	min-width:900px;
+	margin:0 auto;
+}
+header{
+	background:url(../img/apples.jpg) no-repeat center top;
+	height:800px;
+	width:100%;
+	background-size:cover;
+	background-color:#343638;	
+}
+.container{
+	margin:0 auto;
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:40px;
+}
+
+.logo{
+	padding-top:30px
+	padding-left:15px;
+	margin-left:30px;
+	float: left;
+	text-transform:uppercase;
+	text-decoration:none;
+	color:#fff;
+}
+a:hover{
+	color:#343638;
+}
+ul{ float:right;
+}
+ul li  { 
+	display:inline-block;
+	padding:0 30px;
+}
+ul li a{
+	text-decoration:none;
+	color:#fff;
+}
+ul li a:hover{
+	color:#343638;
+}
+.banner{
+	color:#fff;
+	text-align:center;
+	position:absolute;
+	top:280px;
+	margin:0 auto;
+	width:100%;
+}
+h1{
+	text-transform:uppercase;
+	font-size:45px;
+	font-weight:normal;
+	letter-spacing:12px;
+}
+h1 span{
+	font-size:80px;
+}
+.banner p{
+	padding-top: 15px;
+	font-size: 12px;
+}
+
+
+button{
+	padding-top: 100px;
+}
+
+
+.main-btn{
+	margin: 0 auto;
+	height: 50px;
+	text-align: center;
+	margin-top: 200px;
+}
+.main-btn a{
+	padding: 10px 50px;
+	text-decoration: none;
+	color: #FFF;
+	font-size: 14px;
+	background-color: rgba(0,0,0, 0.4);
+	border: 2px solid #FFF;
+}
+main{
+	padding: 0 30px;
+}
+
+.afterbanner{
+	margin-top: 130px;
+	margin-bottom: 130px;
+	max-height: 300px; 
+	display: flex;
+	background-color: #FFF;
+
+}
+.afterbanner h3{
+margin: 0 auto;
+	width: 40%;
+	float: left;
+	font-weight: normal;
+	font-size: 20px;
+
+}
+.afterbanner p{
+	margin: 0 auto;
+	width: 40%;
+	float: right;
+	line-height: 15px;
+	text-align: justify;
+	font-size: 12px;
+ 
+}
+.description{
+  margin: 0 auto;
+	background-color: #F3F3F3;
+	padding-bottom: 25px;
+}
+.description h2{
+padding-top: 110px;
+	padding-bottom: 75px;
+	text-align: center;
+	font-weight: normal;
+}
+
+.feature {
+	display: flex;
+	justify-content: center;
+    margin-bottom: 20px;
+}
+.image {
+	position: relative;
+	margin: 10px;
+	padding: 10px;
+	width: 60%;
+    background-size: cover;
+    overflow: hidden;
+}
+.image img {
+	height: 100%;
+	filter: brightness(80%);
+}
+.image img:hover {
+	transform: scale(1.1); 
+}
+.feature:nth-child(odd) {
+    flex-direction: row-reverse;
+}
+.image h6 {
+	position: relative;
+	bottom: 40px;
+	left: 20px;
+}
+.image a {
+	text-decoration: none;
+	color: #FFF;
+}
+.image button {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+    background-color: rgba(0,0,0, 0.4);
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid #FFF;
+    padding: 5px 10px;
+    display: inline-block;
+}
+.feature p {
+	text-align: center;
+    align-self: center;
+    margin: 10px;
+	font-size: 14px;
+	width: 40%
+}
+.newsletter{
+width: 90%;
+	background-color: #FFF;
+	margin: 30px auto;
+	padding: 50px 30px 90px 30px;
+	vertical-align: center;
+}
+.newsletter h3{
+	float: left;
+	font-size: 1.2em;
+	width: 40%;
+	padding-top: 10px
+
+}
+form{float: right;
+	width: 60%;
+}
+form .field{
+width: 79%;
+	height: 50px;
+	padding: 10px;
+	border: 1px solid #343638;
+	background-color: #f3f3f3;
+} 
+.field::placeholder{
+color: #343638;
+}
+
+form .btn-second{
+width: 19%;
+	height: 50px;
+	margin-left: -5px;
+	background-color: #343638;
+	color: #FFF;
+	border: 1px solid #000;
+}
+
+.field:hover,.btn-second:hover{
+	background-color: #FFF;
+	color: #343638;
+
+}
+.clear {
+	clear: both;
+}
+footer{
+	bottom: 0;
+	height: 300px;
+	background-color: #FFF;
+}
+.finishers {
+	margin-top: 70px;
+	margin-bottom: 100px;
+}
+.finisher {
+	width: 23%;
+	padding: 10px;
+	display: inline-block;
+	vertical-align: text-top;
+}
+.finisher h4 {
+	margin-bottom: 15px;
+}
+.finisher p {
+	color: #a4a4a4;
+	font-size: 12px;
+}
+.finisher .time {
+	line-height: 2;
+	color: #e8e8e8;
+}
+.finisher:nth-child(3) {
+	line-height: 1.5;
+}
+.finisher:nth-child(4) {
+	width: 26%;
+}
+.mailFooter, .submitFooter{
+	height: 25px;
+	margin-top: 5px;
+	font-size: 12px;
+	padding-left: 3px;
+	padding-right: 3px;
+	border: 1px solid #000;
+}
+.mailFooter {
+	width: 75%;
+	background-color: #f3f3f3;
+}
+.mailFooter::placeholder {
+	color: #343638;
+}
+.submitFooter {
+	width: 25%;
+	margin-left: -5px;
+	font-size: 10px;
+	background-color: #343638;
+	color: #FFF;
+	padding: 0;
+}
+.bottom {
+	width: 95%;
+	margin: 0 auto;
+	padding-top: 20px;
+	border-top: 2px solid #e8e8e8;
+	vertical-align: top;
+}
+.bottom p {
+	float: left;
+	color: #a4a4a4;
+	font-size: 12px;
+}
+.bottom nav ul {
+	float: right;
+}
+.bottom nav ul li {   
+	display: inline-block;
+	padding: 0 10px;
+	font-size: 14px;
+}
+.bottom nav ul li a {   
+	color: #343638;
+	text-decoration: none;
+}
+.bottom nav ul li a:hover {  
+	color: #e8e8e8;
+}
